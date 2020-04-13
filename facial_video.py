@@ -17,7 +17,7 @@ time.sleep(2)
 
 print('[INFO] Detecting...')
 run = True
-while True:
+while run:
     frame = vs.read()
     frame = imutils.resize(frame, width=600)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -40,5 +40,5 @@ while True:
     if key == ord("q"):
         run = False
         break
-
+vs.stop()
 cv2.destroyAllWindows()
