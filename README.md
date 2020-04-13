@@ -1,6 +1,9 @@
 # Facial Landmarks with Python
 Simple script to detect facial landmarks using Python and OpenCV.
 It can also detect faces/facial landmark in real time using the webcam.
+
+This picture was taken from Google.
+
 **INPUT**
 ![Input](https://imgur.com/5tcH49U.jpg)
 **OUTPUT**
