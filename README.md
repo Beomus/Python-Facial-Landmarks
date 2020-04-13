@@ -12,4 +12,5 @@ It can also detect faces/facial landmark in real time using the webcam.
 ## Known Issues
 - Do not work well on **ASIANS** (verified by an Asian - myself)
 - Do not work well on people wearing **eye glasses, eye patches** and people with **no eyes** or **only one eye*
+
 The _above issues_ can be fix by tweaking the `EYE_AR_THRESH` to lower for **Asians** and higher for **the rest of the world**.
