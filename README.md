@@ -5,8 +5,11 @@ It can also detect faces/facial landmark in real time using the webcam.
 This picture was taken from Google.
 
 **INPUT**
+
 ![Input](https://imgur.com/5tcH49U.jpg)
+
 **OUTPUT**
+
 ![Output](https://imgur.com/b9bhQRb.png)
 
 ## Installation
