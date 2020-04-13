@@ -16,6 +16,8 @@ image = cv2.imread(img_path)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # detect the face
+# the second argument means "upsample" the image, in this case by one time
+# making it bigger and easier to detect faces
 rects = detector(gray, 1)
 
 for x, rect in enumerate(rects):
